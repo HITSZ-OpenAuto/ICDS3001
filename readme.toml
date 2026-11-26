@@ -1,11 +1,11 @@
 # 课程名称
-course_name = "课程中文名称"
+course_name = "数字集成电路设计"
 
 # 仓库类型: normal | multi-project
 repo_type = "normal"
 
 # 课程代码 (用于检索)
-course_code = "CODE1234"
+course_code = "ICDS3001"
 
 # 课程简介
 description = """

@@ -1,16 +1,16 @@
 # 课程名称
-course_name = "课程中文名称"
+course_name = "数字集成电路设计"
 
 # 仓库类型: normal | multi-project
 repo_type = "normal"
 
 # 课程代码 (用于检索)
-course_code = "CODE1234"
+course_code = "ICDS3001"
 
 # 课程简介
 description = """
-在这里填写课程的简要介绍。
-可以换行。
+数字IC核心课程，包含工艺、逻辑设计和版图设计，相较于数逻更看重熟悉数字设计全流程。
+实验补充：使用Cadance。指导书只包含与非门版图任务，但实验满分需要完成全加器的版图并通过DRC检查，DRC通过即满分。
 """
 
 # ===== 章节列表 =====
@@ -20,27 +20,26 @@ title = "考核方式"
 # 第一条内容
 [[sections.items]]
 content = """
-• 平时成绩: 30%
-• 期中考试: 30%
-• 期末考试: 40%
+• 平时成绩: UNKNOWN
+• 期末考试: UNKNOWN
 """
 # author 是可选的
-author = { name = "昵称A", date = "2025-03" }
+author = { name = "Sdannia", date = "2026-11" }
 
 # 第二条内容（同一章节下多条）
 [[sections.items]]
 content = """
-• 2024年: 期末 60% + 平时 40%
+• 2024年: 期末 + 平时 + 实验
 """
-author = { name = "昵称B", date = "2024-01" }
+author = { name = "Sdannia", date = "2026-11" }
 
 [[sections]]
 title = "学习资料"
 
 [[sections.items]]
 content = """
-• 教材: 《书名》
-• 参考资料链接
+• 教材: 《集成电路设计（第2版）》叶以正，来逢昌主编
+• 参考资料链接：https://z-library.sk/book/yRa1NkB3RQ/%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1.html
 """
 
 # ===== 教师评价 (新 schema) =====
@@ -51,47 +50,35 @@ content = """
 [[lecturers.intro]]
 content = """
 教师团队总体介绍。
-人数: 3人
+人数: 1人
 """
-author = { name = "管理员", date = "2025-01" }
+author = { name = "Sdannia", date = "2026-11" }
 
 [[lecturers.intro]]
 content = """
-研究方向: 机器学习、计算机视觉
 """
 author = { name = "管理员", date = "2025-01" }
 
 # 教师列表
 [[lecturers.items]]
-name = "教师A"
+name = "王进祥"
 
 [[lecturers.items.reviews]]
 content = """
-教师评价内容。
-可以多行。
+王老师这学期上课无签到，认为同学只要课后弄懂即可。
 """
-author = { name = "昵称", link = "https://github.com/xxx", date = "2025-03" }
+author = { name = "Sdannia", link = "https://github.com/xxx", date = "2026-11" }
 
 [[lecturers.items.reviews]]
-content = "另一条评价"
+content = ""
 author = { name = "匿名", date = "2025-01" }
-
-[[lecturers.items]]
-name = "教师B"
-
-[[lecturers.items.reviews]]
-content = "教师B的评价"
-author = { name = "学生", date = "2024-12" }
 
 # 教师总结 (在教师列表之后，可以多条)
 [[lecturers.summary]]
 content = """
-教师团队总结。
-整体教学水平较高。
 """
 author = { name = "管理员", date = "2025-01" }
 
 [[lecturers.summary]]
 content = """
-建议: 尽早选课，晚了好老师就没了
 """

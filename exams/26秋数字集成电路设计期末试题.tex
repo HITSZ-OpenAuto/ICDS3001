@@ -1,0 +1,66 @@
+\documentclass[UTF8,a4paper,12pt,fontset=windows]{ctexart}
+
+\usepackage[top=2.2cm,bottom=2.0cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{caption}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.35}
+\allowdisplaybreaks
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\small 第 \thepage\ 页，共 \pageref{LastPage} 页}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newlist{examquestions}{enumerate}{1}
+\setlist[examquestions]{
+  label=\chinese{examquestionsi}、,
+  labelsep=0.35em,
+  leftmargin=2.6em,
+  itemindent=0pt,
+  labelwidth=2.2em,
+  align=left,
+  itemsep=1.15em,
+  topsep=0pt,
+  parsep=0pt
+}
+
+\begin{document}
+
+\begin{center}
+  {\zihao{4}\heiti 2026 年秋季学期}\\[0.65em]
+  {\zihao{2}\heiti 数字集成电路设计期末试题}\\[0.45em]
+  {\zihao{-4}回忆人：zsy}
+\end{center}
+
+\vspace{0.35em}
+\rule{\textwidth}{0.8pt}
+\vspace{1.2em}
+
+\begin{examquestions}
+  \item 以 CMOS 反相器为例，请写出 CMOS 集成制造工艺的步骤和每步的意义，并画出剖面图。
+
+  \item 请阐述闩锁效应的原理，画出示意图，并说明如何抑制闩锁效应。
+
+  \item 画出 CMOS 反相器的电压传输特性曲线，并说明曲线每一段对应的 PMOS、NMOS 状态以及 $V_i$ 的取值范围。写出逻辑转折电压 $V^{*}$ 的表达式并说明其意义。
+
+  \item 画出静态 D 触发器的电路（逻辑图），说明保持/建立时间的作用。
+
+  \item 一个 CMOS 反相器的 PMOS 的 $(W/L)_p=2/1$，NMOS 的 $(W/L)_n=1/1$，请你设计驱动能力不弱于该反相器的二输入与非门和或非门尺寸 $W/L$，比较三个电路输出高、低电平的噪声容限大小。
+
+  \item 下图为同相施密特电路，请你描述其工作原理，并分析其抗噪声能力。
+
+  \begin{center}
+    \vspace{0.4em}
+    \includegraphics[width=6.4cm]{assets/schmitt.png}
+  \end{center}
+\end{examquestions}
+
+\end{document}

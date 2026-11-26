@@ -10,9 +10,9 @@
     "hash": "cabe9a99290f5c9df071c0e452d26df7d7cc71d5"
   },
   "README.md": {
-    "size": 1538,
-    "time": 1795620148,
-    "hash": "cabe9a99290f5c9df071c0e452d26df7d7cc71d5"
+    "size": 1637,
+    "time": 1795704638,
+    "hash": "d78a48f2c2466cdb66ca84d589078d3112f57975"
   },
   "assignments/.gitkeep": {
     "size": 0,
@@ -24,10 +24,30 @@
     "time": 1795620148,
     "hash": "cabe9a99290f5c9df071c0e452d26df7d7cc71d5"
   },
+  "exams/26秋数字集成电路设计期末试题.pdf": {
+    "size": 58457,
+    "time": 1795656852,
+    "hash": "1f4288fb04216a14b842dd336fad72cfbf31e6cd"
+  },
+  "exams/26秋数字集成电路设计期末试题.tex": {
+    "size": 2046,
+    "time": 1795656852,
+    "hash": "1f4288fb04216a14b842dd336fad72cfbf31e6cd"
+  },
   "labs/.gitkeep": {
     "size": 0,
     "time": 1795620148,
     "hash": "cabe9a99290f5c9df071c0e452d26df7d7cc71d5"
+  },
+  "labs/数字集成实验报告模板.docx": {
+    "size": 88542,
+    "time": 1795660026,
+    "hash": "4ef42b8eb83de034d45b701ba2af37b1c1ecf8f9"
+  },
+  "labs/数字集成电路设计_版图实验.doc": {
+    "size": 669696,
+    "time": 1795660026,
+    "hash": "4ef42b8eb83de034d45b701ba2af37b1c1ecf8f9"
   },
   "notes/.gitkeep": {
     "size": 0,
@@ -35,9 +55,9 @@
     "hash": "cabe9a99290f5c9df071c0e452d26df7d7cc71d5"
   },
   "readme.toml": {
-    "size": 1996,
-    "time": 1795620148,
-    "hash": "cabe9a99290f5c9df071c0e452d26df7d7cc71d5"
+    "size": 2106,
+    "time": 1795664593,
+    "hash": "a174788beee4c413f457693347b7021fbf590bb1"
   },
   "slides/.gitkeep": {
     "size": 0,
